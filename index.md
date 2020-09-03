@@ -58,7 +58,7 @@ A system with a high level of availability is expected to be able to execute its
  The train shall not exceed the specified speed limit for a section of track.
 Assuming that the signal status and the speed limit for the track segment are transmitted to on-board software on the train before it enters the track segment, propose five possible functional system requirements for the onboard software that may be generated from the system safety requirements.
 1. The system should regularly check the current speed of the train
-2. The system should apply the brakes if the train is exceding the speed limit on the current section of track
-3. The system should regularly check the track status of the current segment of track
+2. The system should apply the brakes if the train is exceding the speed limit of a section of track it is nearing
+3. The system should apply the brakes if the upcoming track segment is signaling a red light
 4. The system should apply the brakes if the current track segment is signaling a red light
 5. The system should regularly check the signal status of the upcoming track segment
