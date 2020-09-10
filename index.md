@@ -63,7 +63,7 @@ Assuming that the signal status and the speed limit for the track segment are tr
 4. The system should apply the brakes if the current track segment is signaling a red light
 5. The system should regularly check the signal status of the upcoming track segment
 
-## HW: Relections on Software Failures
+## HW4: Relections on Software Failures
 
   After reading the articles from the past two weeks the common theme between the readings is software failure do to neglegence. In each of the articles addressing software failures on major projects the blame is placed on inadequacies in the software development process. In many of the projects it is specifically put on an inadequate or rushed testing phase or on an inadequate procedure that lead the programmers to misinterpret their instructions. These failures are great examples, and unfortunate learning experiences, that show the importance of the software development process and having good software engineering practices. Although none of my projects have caused the failure of a multi million dollar project or cost someone their life, I know that there are many times I could have avoided problems if I had been more organized and thorough in my process. 
     
@@ -72,3 +72,43 @@ Assuming that the signal status and the speed limit for the track segment are tr
    The FBI went millions of dollars over budget and years over the deadline trying to create a central database for all of their divisions. The original project cost $170 million and when it was delivered it was riddled with bugs and unusable. This caused the FBI to bandaid the project so that they had a usable system until their Sentenal project was done. The sentenal project ran over budget and over its deadline multiple times because it wasn't up to par with the FBIs needs time and time again. The developers of the project were also lazy with their progress reports which lead to misinformation about where they were in the process. When the Sentinal project was announced as finished in 2012 but then in 2014 the FBI made another statement that the project was still not in total shape. The initial failures of the sentinal project caused a snowball effect that laneded the project years late and millions over budget. 
     
    These failures in software engineering highlight the importance of communication in the software development process. Miscommunication or misleading members of a team, a client, or an employer can lead to heavy financial consequences like in the spacecraft accidents and the FBI database, or even crippling or killing someone like in the case of the Therac-25 accidents. It is important to treat the software development process like any other engineering process. It seems like the government in the early 2000's tended to overlook the importance and the impact that bad code could have on a project. Good software practices shouldn't be optional especially in high risk scenarios.
+   
+## HW5: Chapter 4 and reflections
+
+4.5) Using the technique suggested here, where natural language descriptions are presented in a standard format, write plausible user requirements for the following functions:
+  
+  An unattended gas pump system that includes a credit card reader. The customer swipes the card through the reader, then specifies the amount of fuel required. The fuel is delivered and the customer's account debited.
+  The system should prompt the user to enter a pin before charging the card
+  The system should require the user to specify a fuel grade before allowing the user to pump gas
+  The system should require the rate at which the fuel is pumped by the user via a trigger or button
+  The system should credit the customers account if they finish fueling before all the fuel they paid for is pumped. 
+  The system should stop pumping fuel if it detects that the vehicle is full.
+  
+  The cash-dispensing function in a bank ATM.
+  
+  The system should verify the card being used is valid
+  The system should prompt the user to enter a pin and verify the validity of the pin
+  The system should ask the user how much money they would like do be dispensed
+  The system should check that the user has sufficient funds in their account to withdraw cash
+  The system should dispense the correct amount of cash to the user
+  
+  In an internet banking system, a facility that allows customers to transfer funds from one account held with the bank to another account with the same bank.
+  
+  The user should have to confirm that they are an authorized owner of the account via a passowrd or pin
+  The user should specify which acocunt(s) they want to transfer funds to and from
+  The system should verify that both accounts are indeed with that bank
+  The user should confirm that this action is indeed they one they want to do
+  The funds should be available in the other account instantaneously
+  
+4.6) Suggest how an engineer responsible for drawing up a system requirements specification might keep track of the relationships between functional and non-functional requirements.
+The list of requirements could be organized by a list of non-functional requirements with a list under each non-functional requirements of functional requirements that would help the non-functional requirements meet their objectives. For instance, If a non-functional requirement is that at any given time the nuclear plant can be shut down within five minutes, functional requirements could be that the system should generate a warning to shut down if it gets too hot, the system should shut down if (combination of actions) is completed, the system should monitor the temerature and provide live updates.
+
+4.7) Using your knowledge of how an ATM is used, develop a set of use cases that could serve as a basis for understanding the requirements for an ATM system.
+
+Depositing money allows the user to add money to their account by putting physical bills in the ATM. The user first must enter their card and pin to prove they are a verified user of the account. The user then selects the enters the amount of money they are depositing. The user then puts the money in the machine and the machine verifies that they amount of money the user put in the machine matches the amount they said they were depositing. If the amounts matches then the machine informs the user that they have successfully added money to their account, provides them with a receipt, and returns their card to them.
+
+Withdrawing money from the machine allows the user to withdraw money from their account in the form of physical bills. The user must enter their card and fin to prove that they are a verified user of the account. The user then selects the amount of money they would like to withdraw. The machine checks to see if the user has enough money in their account to withdraw the desired amount and then the machine checks to make sure it has enough money to provide the user the desired amount. If both cases are true then the machine supplies the user with their money, prints a receipt, and ejects their card. 
+
+chapter 4 readings)
+
+The theme of this weeks readings was understanding the requirements of code before beginning to write it. It is important to understand exactly a program needs to be able to do and how well it needs to be able to do each thing in order to write it. Which functionalities need to be secure, which ones need to be fast and what things might not need to be done at all that could have slowed down development. Using a test first development system as discussed in the article can help the engineers understand the functional and non-functional requirements of a system. By developing a test for the code before the code itself there is a set of minimum standards that the code needs to meet, so long as the testing is thorough.
