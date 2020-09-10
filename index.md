@@ -79,25 +79,37 @@ Assuming that the signal status and the speed limit for the track segment are tr
   
   An unattended gas pump system that includes a credit card reader. The customer swipes the card through the reader, then specifies the amount of fuel required. The fuel is delivered and the customer's account debited.
   The system should prompt the user to enter a pin before charging the card
+  
   The system should require the user to specify a fuel grade before allowing the user to pump gas
+  
   The system should require the rate at which the fuel is pumped by the user via a trigger or button
+  
   The system should credit the customers account if they finish fueling before all the fuel they paid for is pumped. 
+  
   The system should stop pumping fuel if it detects that the vehicle is full.
   
   The cash-dispensing function in a bank ATM.
   
   The system should verify the card being used is valid
+  
   The system should prompt the user to enter a pin and verify the validity of the pin
+  
   The system should ask the user how much money they would like do be dispensed
+  
   The system should check that the user has sufficient funds in their account to withdraw cash
+  
   The system should dispense the correct amount of cash to the user
   
   In an internet banking system, a facility that allows customers to transfer funds from one account held with the bank to another account with the same bank.
   
   The user should have to confirm that they are an authorized owner of the account via a passowrd or pin
+  
   The user should specify which acocunt(s) they want to transfer funds to and from
+  
   The system should verify that both accounts are indeed with that bank
+  
   The user should confirm that this action is indeed they one they want to do
+  
   The funds should be available in the other account instantaneously
   
 4.6) Suggest how an engineer responsible for drawing up a system requirements specification might keep track of the relationships between functional and non-functional requirements.
