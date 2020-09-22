@@ -124,3 +124,16 @@ Withdrawing money from the machine allows the user to withdraw money from their 
 chapter 4 readings)
 
 The theme of this weeks readings was understanding the requirements of code before beginning to write it. It is important to understand exactly a program needs to be able to do and how well it needs to be able to do each thing in order to write it. Which functionalities need to be secure, which ones need to be fast and what things might not need to be done at all that could have slowed down development. Using a test first development system as discussed in the article can help the engineers understand the functional and non-functional requirements of a system. By developing a test for the code before the code itself there is a set of minimum standards that the code needs to meet, so long as the testing is thorough.
+
+## HW6: Chapter 2
+
+2.1) Suggest the most appropriate generic software process model that might be used as a basis for managing the development o fhte following systems. Explain your answer according the the type of system being developed:
+
+A system to control antilock braking in a car: In an antilock brakeing system safety is of the utmost importance so a waterfall model would be the most appropriate. The system should be thouroughly thought through and tested before it is implemented into a system.
+
+A virtual reality system to support software maintinence: Incremental development would be most appropriate in this scenario. Features and processes could be released as the work to continue to add functionality to the VR system and it can be tested on the system without danger. 
+
+A university accounting system that replaces an existing system: for this solution incremental development could be used so that the new software could be used and improved upon as it is being developed and the old software can still be used until the new is ready. This way the new software is rolled out more smoothly as it isnt implemented all at once. 
+
+An interactive travel planning system that helps users plan journeys with the lowest environmental impact: Incremental development would be best for this system. The system could be launched with base features, and with no risk to any users, could be improved upon with added features along the way. 
+
