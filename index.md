@@ -137,7 +137,7 @@ A university accounting system that replaces an existing system: for this soluti
 
 An interactive travel planning system that helps users plan journeys with the lowest environmental impact: Incremental development would be best for this system. The system could be launched with base features, and with no risk to any users, could be improved upon with added features along the way. 
 
-##HW7: Chapter 5 and 6
+## HW7: Chapter 5 and 6
 
 [Exercise 5.3](https://drive.google.com/file/d/1XmLOSJYy4pYkaqUT9gtgomHJCgv__hgI/view?usp=sharing)
 
@@ -153,4 +153,10 @@ It is important to develop both activity and sequence diagrams so that you can o
 [Exercise 6.4 Video Conference](https://drive.google.com/file/d/1wQt-3Wq12Otfb4dGf9tNqEE6XfVd7Bf1/view?usp=sharing)
 
 [Exercise 6.4 Robot Vaccum](https://drive.google.com/file/d/1sFSgT6CYfJ3HTq6X5bvmaas1qdf6kAcY/view?usp=sharing)
+
+## HW8: Mythical Man Month
+
+  Mythical Man Month discusses the pros and cons, mostly cons, of having a large software team to develep software simultaneously. Since software development often can not be divided up into evenly distributed bits of code, teams must work together to solve problems linearly, with one lead mind guiding the process so that eveything stays consistent. This does not mean that there cannot be large teams for large projects though. There are certain projects that require a lot of people to work on them or they would take too long. This just means that on a large projects there needs to be a small number of drivers with a large support team behind them. The drivers need to focus on driving while the other members of the team help by doing their own tasks. 
+  Mythical Man Month also discusses that most team leads like have a small team of sharp people rather than an army of people to command. This is heavily reflected in the softwrae engineering process today and in the surgical team example from the text. There only needs a be a small amount of people writing the code for a project since many projects need to be done linearly. However, they also need ideas from others, someone suggesting ideas or researching better or more efficient ways to do things. This is like a larger scale version of paired programming from our CS labs. There is one person writing and one person simply presenting ideas to the person writing. This way everyone is familiar with the code being written and there can be multiple minds figuring out the process. The actual typing part of coding isn't what takes a long time, its the problem solving things along the way. The texts discusses how its hard to have a timeline for programming projects becasue they can only predict how long it will take if there are no problems, and it is very difficult to predict what kinds of problems may be encountered along the way or how long it will take to solve them. 
+    The entire idea of the Mythical Man Month is that man power does not equal time in programming. Each project cannot act as a multi threaded project where each member gets its own task. Each team must function as one cpu where they all work together so solve the current problem they are working on by each member completing their own task. This is the analogy that kept coming to mind while reading the text, which I think fits the subject well. While many workloads can be accelerated with more man power, some of them benefit most from having one efficient driver running the whole show. 
 
