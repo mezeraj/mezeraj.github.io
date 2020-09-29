@@ -137,3 +137,20 @@ A university accounting system that replaces an existing system: for this soluti
 
 An interactive travel planning system that helps users plan journeys with the lowest environmental impact: Incremental development would be best for this system. The system could be launched with base features, and with no risk to any users, could be improved upon with added features along the way. 
 
+##HW7: Chapter 5 and 6
+
+[Exercise 5.3](https://drive.google.com/file/d/1XmLOSJYy4pYkaqUT9gtgomHJCgv__hgI/view?usp=sharing)
+
+[Exercise 5.5](https://drive.google.com/file/d/1RkNDeLBhRQeBuTr_PQI2jD36ekQiukMP/view?usp=sharing)
+
+[Exercise 5.7](https://drive.google.com/file/d/1lnpXrv8e1Uv579vmU9pezC0GHprqrHJb/view?usp=sharing)
+
+[Exercise 5.8](https://drive.google.com/file/d/1wspXiD5MXAMwdwI8SfrI2pdowVQtba8S/view?usp=sharing)
+It is important to develop both activity and sequence diagrams so that you can observer the physical processes associated with a system as well as the digital processes. 
+
+[Exercise 6.4 Ticketing System](https://drive.google.com/file/d/1anflByEZXrQqy6bwH7SARCYcJn3eN3KH/view?usp=sharing)
+
+[Exercise 6.4 Video Conference](https://drive.google.com/file/d/1wQt-3Wq12Otfb4dGf9tNqEE6XfVd7Bf1/view?usp=sharing)
+
+[Exercise 6.4 Robot Vaccum](https://drive.google.com/file/d/1sFSgT6CYfJ3HTq6X5bvmaas1qdf6kAcY/view?usp=sharing)
+
