@@ -160,3 +160,30 @@ It is important to develop both activity and sequence diagrams so that you can o
   Mythical Man Month also discusses that most team leads like have a small team of sharp people rather than an army of people to command. This is heavily reflected in the softwrae engineering process today and in the surgical team example from the text. There only needs a be a small amount of people writing the code for a project since many projects need to be done linearly. However, they also need ideas from others, someone suggesting ideas or researching better or more efficient ways to do things. This is like a larger scale version of paired programming from our CS labs. There is one person writing and one person simply presenting ideas to the person writing. This way everyone is familiar with the code being written and there can be multiple minds figuring out the process. The actual typing part of coding isn't what takes a long time, its the problem solving things along the way. The texts discusses how its hard to have a timeline for programming projects becasue they can only predict how long it will take if there are no problems, and it is very difficult to predict what kinds of problems may be encountered along the way or how long it will take to solve them. 
     The entire idea of the Mythical Man Month is that man power does not equal time in programming. Each project cannot act as a multi threaded project where each member gets its own task. Each team must function as one cpu where they all work together so solve the current problem they are working on by each member completing their own task. This is the analogy that kept coming to mind while reading the text, which I think fits the subject well. While many workloads can be accelerated with more man power, some of them benefit most from having one efficient driver running the whole show. 
 
+
+## HW9: Chapter 8 and refelections on testing
+
+8.7: Someone requests data from the weather station system but it has been damaged by the environment and not all of the gagues are working. Since the satelite uplink bandwidth is low and the connection is slow, it cannot send all of the data at once. 
+
+8.10: The problem with testing until the budget runs out is that if the budget runs out before testing is completed then the software may still have significant bugs remaining. If there is more than enough budget to run tests after testing is complete then that is a good thing but, if there isn't enough money to do the testing the company risks releasing a faulty product which, if the product has sensitive information or does tasks that are high risk, creates lots of potential risk for using the software in the real world. 
+
+Reading Relection: One of the major takaways from the readings was the extensive planning that goes into testing as well as the different processes associated with different types of testing. Well planned and organized tests can lead to better and more useful test cases as well as leaving more time and money to test other processes. It is also important that the people testing the product understand the full intentions and uses of the product. The testers can run every method and check for outcomes but if they don't understand the uses of the software then it can be harder to understand where and why bugs are being produced, or why the outcomes are what they are. 
+
+
+## HW10: Chapter 15
+
+15.10: Many of the issues brought up in the question are solved in the contract between the company paying for the software and the company writing the software. If it is specified that the company paying for the software owns all of the code software then they can go about and change and reuse the code, hiring whoever they want to do so. However, if the company writing the code owns it then the copmany paying for it could be somewhat obligated to go back to them for changes. Which also makes the most sense since they likely understand it better anyway. If they do go to someone else then the original software writing company might feel obligated to reimbursement for others using their code, especially if it is used to create new systems,
+
+## HW11: Chapter 9
+
+9.8: Fault repairs to fix bugs and vulnerabilites. This type of maintinence is used to fix issues that should not have existed in the first place. Bug fixes, design errors and requirements errors. These can be lessened through thourough testing, but they are almost impossible to eliminate. 
+
+Environmental adaptation to adapt the sofware to new platforms and environments. This type of maintenance is requred when parts of a system are no longer supported.  If an operating system goes out of use, or hardware becomes too old to maintain. Environmental changes can require moving large amounts of a system from one platform to another.
+
+Functionality addition to add new features and support new requirements. This maintinence is required when the needs of the business change. It could be new tools, features, or layouts to a system. These will happen regularly but they usually do not require a massive rewrite. 
+
+It can be difficult to distinguish between different types of maintinence because one type of maintinence may lead to another. For instance if a company wants to add new features that aren't supported by their current system, there may be environmental adaption required as well, and any type of maintinence can lead to repairs, even repairs can lead to more repairs. 
+
+9.10: Engineers have a professional responsibility to create code that can be easily maintained. They should create code so that someone comeing in having never seen it before can understand it without completely stripping it down. Engineers should write code how the same way they would like code to be written for them. Employers not having specific requirements for code maintinence standards should be understood as them assuming you know how to best write the code and that way you can be a more efficient worker. 
+
+## HW12: 
