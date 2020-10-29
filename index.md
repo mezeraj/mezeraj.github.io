@@ -186,8 +186,15 @@ It can be difficult to distinguish between different types of maintinence becaus
 
 9.10: Engineers have a professional responsibility to create code that can be easily maintained. They should create code so that someone comeing in having never seen it before can understand it without completely stripping it down. Engineers should write code how the same way they would like code to be written for them. Employers not having specific requirements for code maintinence standards should be understood as them assuming you know how to best write the code and that way you can be a more efficient worker. 
 
-## HW12: 
+## HW12: Chapter 16
 
 [Exercise 16.9 part 1](https://drive.google.com/file/d/1pwGcnbICT27Kfd21PtDLDNP-6cTfTWfS/view?usp=sharing)
 
 [Exercise 16.9 part 2](https://drive.google.com/file/d/13ibvZKje3GlvpCNVcQ17X2Z1LzoBHagt/view?usp=sharing)
+
+## HW13: Chapter 17
+Accessability: The availability of the service will no longer be based on whether or not the computer in front of a user is working, it will be based on both the users machine and the serverside machine functioning. On top of that if the service fails on the server side then the service fails for all users and not just on one computer. This risk can be reduced by having back ups on the server side to make sure that if one thing fails that everything doesn't fail. Redundancy. 
+
+Latency Issues: A service based on the users computer will always be more responsive than a service based in the cloud and running on a users computer. If actions need to be completed quickly and accurately then latency can become an issue even if it is less than a second. This can be resolved with fast user internet and fast servers from the provider. 
+
+Financial: A service bought by a user and installed on a computer usually has a single, larger, up front cost, while a service provided over the internet and hosted somewhere will usually be paid for in monthly plans. If for some reason the company cannont pay for the service then they could lose all of that data that was stored on the server side. This can be resolved by backing up data in house.
