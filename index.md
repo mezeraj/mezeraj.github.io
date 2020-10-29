@@ -188,6 +188,6 @@ It can be difficult to distinguish between different types of maintinence becaus
 
 ## HW12: 
 
-[Exercise 16.9 part 1](https://docs.google.com/document/d/19FYrOXHBkbCy7dpoDp33jsgdoioPtZ7PObLzqgjfh1w/edit?usp=sharing)
+[Exercise 16.9 part 1](https://drive.google.com/file/d/1pwGcnbICT27Kfd21PtDLDNP-6cTfTWfS/view?usp=sharing)
 
 [Exercise 16.9 part 2](https://drive.google.com/file/d/13ibvZKje3GlvpCNVcQ17X2Z1LzoBHagt/view?usp=sharing)
