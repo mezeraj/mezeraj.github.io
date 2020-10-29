@@ -187,3 +187,6 @@ It can be difficult to distinguish between different types of maintinence becaus
 9.10: Engineers have a professional responsibility to create code that can be easily maintained. They should create code so that someone comeing in having never seen it before can understand it without completely stripping it down. Engineers should write code how the same way they would like code to be written for them. Employers not having specific requirements for code maintinence standards should be understood as them assuming you know how to best write the code and that way you can be a more efficient worker. 
 
 ## HW12: 
+
+[Exercise 16.9 part 1](https://docs.google.com/document/d/19FYrOXHBkbCy7dpoDp33jsgdoioPtZ7PObLzqgjfh1w/edit?usp=sharing)
+[Exercise 16.9 part 2](https://drive.google.com/file/d/13ibvZKje3GlvpCNVcQ17X2Z1LzoBHagt/view?usp=sharing)
