@@ -198,3 +198,47 @@ Accessability: The availability of the service will no longer be based on whethe
 Latency Issues: A service based on the users computer will always be more responsive than a service based in the cloud and running on a users computer. If actions need to be completed quickly and accurately then latency can become an issue even if it is less than a second. This can be resolved with fast user internet and fast servers from the provider. 
 
 Financial: A service bought by a user and installed on a computer usually has a single, larger, up front cost, while a service provided over the internet and hosted somewhere will usually be paid for in monthly plans. If for some reason the company cannont pay for the service then they could lose all of that data that was stored on the server side. This can be resolved by backing up data in house.
+
+
+## HW14: Chapter 18
+Currency Converter
+Methods:
+calculate()
+
+Inputs:
+Amount1
+Amount2
+Currency1
+Currency2
+
+Outputs:
+ConvertedAmount
+
+Credit Check Rating Services
+Methods:
+getCreditScore()
+calculateRating()
+
+Inputs:
+Credit Info
+Proof of identity
+
+Outputs:
+Credit rating
+
+
+## HW15: Chapter 19
+
+It is impossible to predict exactly the way the components of a system are going to operate. Unless the components of a system are executed in a specific way then the emergent properties aren't going to be predictable in a copmlec system. 
+
+
+## HW16: Chapter 20
+
+It should be clear that it is unethical to try to coerce clients into paying more money for a service by creating a confusing interface. The company is responsible for informing the users of any changes they are going to make and it is unethical to try to earn more money through any dishonest means. Although the company could potentially make more money, which the employees and shareholders would benefit from, this could also result in a longer term loss of income if these practices become obvious to the users and they switch. So even if a moral obligation to do the right thing isn't there, the long term financial hit of using unethical practices should hopefully influence a company into doing the right thing. 
+
+## HW17: Team Progress 1
+
+Our experience creating the testing software for the Tanaguru Contrast Finder has been good. Each step we take towards completion we learn more about the process and understand the needs better. Its a neat process trying to decide which solutions will work best for our project, and which solutions we can actually get to work with our project. Since we have developed the software to do all the basic functions, all we have to do now is write each of the drivers, which was one of the smoother parts of the process for our team. 
+
+## HW18 
+
