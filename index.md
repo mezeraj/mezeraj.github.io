@@ -240,5 +240,23 @@ It should be clear that it is unethical to try to coerce clients into paying mor
 
 Our experience creating the testing software for the Tanaguru Contrast Finder has been good. Each step we take towards completion we learn more about the process and understand the needs better. Its a neat process trying to decide which solutions will work best for our project, and which solutions we can actually get to work with our project. Since we have developed the software to do all the basic functions, all we have to do now is write each of the drivers, which was one of the smoother parts of the process for our team. 
 
-## HW18 
+## HW18: Chapter 21 and 22
+
+21.4: 
+Real time software systems have different requirements that often cannot be met with an object oriented approach. An object oriented approach comes with lots of extra features that a real time system doesn't need and that would end up slowing it down and, in a real time system, many events will be time sensitive. Real time systems also have a static bind that doesn't comply with object oriented programming.  A static bind prevents one of the core concepts of object oriented programming, polymorphism. 
+
+22.6:
+Fixed-price contracts, although useful to the client to save money on initial development costs, creates an immediate problem by limiting funds. As discussed frequently, it is almost impossible to fully test most software, so developers take lots of time to test the most important, and frequently used parts of a system. However, if the developers are running out of money and discover an issue, then they cannot continue to test and may be forced to complete the project without further compensation, or to release the unfinished product. Fixed-price contracts are also bad because it is diffcult to know how long a project will take to complete. Developers cannot predict where they will struggle or where things will go smoothly. A fixed price contract, although reducing up front cost of a project, opens the door to problems in the future in a project. 
+
+## HW19: Chapter 23
+
+[Excercise 23.6](https://drive.google.com/file/d/1ruYNcvstm2_o__KhCtGjzrtPKT4J3auV/view?usp=sharing)
+
+## HW20: Team Progress II
+
+Our team is working quickly through this project. We have created the rest of the test cases and drivers for the tested methods. Since we created our script so that we can easily add new tests, all we had to do was add new test cases and driver methods for them with no modification to the script. This went relatively smoothly with only one issue with one of the tested methods. One of the methods was difficult to recieve output from because of the format. With some research and teamwork we came up with a solution. Our group is now working on injecting faults into the code and each member already has ideas for each of the methods. The rest of this project should run smoothly.
+
+## HW21: Chapter 24
+
+Program inspections insure that the program is running correctly. This method is an effective technique because the reviewers have fresh eyes that might be able to more easily spot issues with code than someone who has been working on the project consistently. As the reviewers are going over the code they are looking for more obious issues with the code than obscure errors or bugs. The things they look for are the most common errors and the reviewers have a checklist of things to look out for. These errors could be logic errors or even a typo. 
 
